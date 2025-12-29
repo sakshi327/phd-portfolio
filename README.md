@@ -36,7 +36,7 @@ A minimal, reproducible example illustrating my computational → biological rea
 git clone https://github.com/sakshi327/agextend-mimetics-demo
 cd agextend-mimetics-demo
 conda env create -f environment.yml
-conda activate agextend
+conda activate agextend-mimetics
 python demo.py
 ```
 This demo mirrors how computational prioritization was translated into experimentally testable hypotheses during my PhD.
