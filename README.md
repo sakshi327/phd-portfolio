@@ -28,3 +28,41 @@ Key experimental systems used:
 
 ---
 
+## 🚀 Runnable Demonstration
+
+A minimal, reproducible example illustrating my computational → biological reasoning workflow:
+
+```bash
+git clone https://github.com/sakshi327/agextend-mimetics-demo
+cd agextend-mimetics-demo
+conda env create -f environment.yml
+conda activate agextend
+python demo.py
+```
+This demo mirrors how computational prioritization was translated into experimentally testable hypotheses during my PhD.
+
+---
+
+## 🧪 Experimental Competencies Demonstrated
+- Designing computational screens with downstream assay constraints
+- Selecting biologically meaningful hit thresholds
+- Interpreting lifespan, senescence, and toxicity readouts
+- Iteratively refining models based on experimental feedback
+
+---
+
+## 🧠 Transferable Skills
+- End-to-end scientific pipeline design
+- Cross-disciplinary communication (AI ↔ wet lab)
+- Reproducible, collaborative research engineering
+- Mechanistic interpretation of ML outputs
+
+---
+## 📄 Notes
+Some repositories contain simplified or anonymized code to respect publication and collaboration constraints. Each project clearly documents scope and limitations.
+
+---
+## 📫 Contact
+For postdoctoral opportunities or collaborative research, please reach out via GitHub or [email](sakshia@iiitd.ac.in).
+
+---
