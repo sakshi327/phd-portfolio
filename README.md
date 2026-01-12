@@ -19,27 +19,19 @@ Key experimental systems used:
 
 ## 📊 Project Overview
 
-| Project | Scientific Question | Methods | Experimental Integration |
-|------|------------------|---------|--------------------------|
-| AgeXtend (fork) | Can geroprotectors be predicted mechanistically? | Bioactivity embeddings, explainable ML | Yeast CLS, fibroblast assays, *C. elegans* |
-| AgeXtend::Mimetics (demo) | How to identify CR mimetics beyond structure? | Contrastive learning, dual similarity | Assay-aligned prioritization |
-| Cheminformatics Toolkit | How to encode biological relevance? | RDKit, fingerprints | Descriptor–assay alignment |
-| ML Pipeline Template | How to ensure reproducibility? | Config-driven ML | Experiment-ready outputs |
+| Portfolio Component                               | Scientific Question                                                                             | Methods & Analyses                                                                       | Experimental Alignment                                                                             |
+| ------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| **AgeXtend (flagship project)**                   | Can geroprotective compounds be predicted in a mechanism-aware and interpretable manner?        | Bioactivity-centric embeddings, explainable ML, multi-hallmark classifiers               | Yeast chronological lifespan (CLS), fibroblast senescence & toxicity assays, *C. elegans* lifespan |
+| **AgeXtend::Mimetics (demo)**                     | How can caloric restriction mimetics be identified beyond structural similarity?                | Contrastive learning, dual chemical–biological similarity, residual-based prioritization | Assay-aware hit ranking for downstream aging experiments                                           |
+| **Data Curation & Preprocessing**                 | How should heterogeneous aging datasets be cleaned and standardized for modeling?               | Label harmonization, QC filtering, class-imbalance handling, embedding preprocessing     | Ensures biologically meaningful and experimentally feasible candidate sets                         |
+| **Feature Engineering & Representation Learning** | Which molecular representations best capture aging-relevant biology?                            | RDKit descriptors, fingerprints, bioactivity embeddings, dimensionality reduction        | Feature choices informed by interpretability and pathway-level experimental readouts               |
+| **Modeling & Learning Strategies**                | How do different ML paradigms perform on aging-associated prediction tasks?                     | SVMs, boosted models, graph-based DeepChem models, supervised contrastive learning       | Model selection guided by robustness and experimental validation constraints                       |
+| **Validation & Error Analysis**                   | How robust and generalizable are aging-focused predictive models?                               | Cross-validation, LOOCV, external testing, ROC/AUC analysis, failure case analysis       | Thresholds and decision rules chosen to balance hit rate vs experimental cost                      |
+| **Experimental Alignment & Hit Selection**        | How are computational predictions translated into testable biological hypotheses?               | Ranking logic, toxicity filtering, dose-range considerations, shortlist generation       | Direct alignment with yeast, cell-based, and *C. elegans* assays                                   |
+| **Statistical Analysis & Visualization**          | How should computational and experimental results be quantitatively evaluated and communicated? | Survival analysis, non-parametric tests, enrichment statistics, publication-grade plots  | Statistical interpretation of lifespan, senescence, and related biological assays                  |
+| **Reproducibility & Research Engineering**        | How can aging-focused ML workflows be made reproducible and extensible?                         | Script–notebook separation, environment control, modular code design                     | Enables reliable iteration between computation and wet-lab validation                              |
 
----
 
-## 🚀 Runnable Demonstration
-
-A minimal, reproducible example illustrating my computational → biological reasoning workflow:
-
-```bash
-git clone https://github.com/sakshi327/agextend-mimetics-demo
-cd agextend-mimetics-demo
-conda env create -f environment.yml
-conda activate agextend-mimetics
-python demo.py
-```
-This demo mirrors how computational prioritization was translated into experimentally testable hypotheses during my PhD.
 
 ---
 
@@ -63,6 +55,6 @@ Some repositories contain simplified or anonymized code to respect publication a
 
 ---
 ## 📫 Contact
-For postdoctoral opportunities or collaborative research, please reach out via GitHub or [email](sakshia@iiitd.ac.in).
+For postdoctoral opportunities or collaborative research, please reach out via GitHub or [email](iamsakshia@gmail.com).
 
 ---
